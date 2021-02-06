@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from match_info import get_all_team_matches, get_all_matches
 
-bot = telebot.TeleBot('1338916573:AAEl8uBoXRxJY-xl1FiIlM1CIrFJFgKSbt4')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(content_types=['text'])
